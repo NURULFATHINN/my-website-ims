@@ -1,0 +1,174 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: TW Cen MT;
+  padding: 10px;
+  background: grey;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 60px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 21px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: white;
+  color: #0000ffff;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  font-size: 15px;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  font-size: 15px;
+  background-color: grey;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: pink;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  font-family: Arial;
+  font-size: 15px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+
+<body>
+<head>
+<title>Family</title>
+</head>
+<div class="header">
+  <h1><b>Nurul Fathin<b></h1>
+  <p><marquee loop="20">May Allah Ease Everything</marquee loop="20"></p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home Page</a>
+  <a href="biodata.html">Biodata</a>
+  <a href="experience.html">Experience</a>
+  <a href="education.html">Education</a>
+  <a href="family.html">Family</a>
+  <a href="contact.html">Contact</a>
+  <iframe style="float:right"src="https://free.timeanddate.com/clock/i8o2p3bw/n122/tlmy/fn2/fs16/fcfff/tc000/ftbi/bas2/bat1/bacfff/pa8/tt0/tw1/tm1/th1/ta1/tb4" frameborder="0" width="178" height="65"></iframe>
+
+</div>
+<div class="row">
+  <div class="leftcolumn">
+  <div>
+      <h2></h2>
+    </div>
+    <div class="card">
+      <h2><b>Family<b></h2>
+      <h5><i>"Where there is family, there is love."<i></h5>
+        <center>
+          <p>My Parents</p>
+          <img src="Picture/parents.jpg" alt="family" style="width:450px;height:300px;">
+            </center>
+        <center>
+          <p>My Siblings</p>
+	  <img src="Picture/family.jpg" alt="family" style="width:450px;height:300px;">
+      </center>
+<p>This is my beloved family.  My family consists of my father, my mother, 4 older sister, 3 older brother, and myself. 
+My father's name is Ariffin bin Awang and my mother's name is Asiah binti Mat. 
+My parents are the foundation of my family, and my father is the leader of the household. 
+He is the one who makes final decisions on any topic, and we all respect him. 
+My family has been preparing me for future problems from childhood. 
+In addition, all of my family members assist and serve one another in times of need. 
+These values that I learned from my family have helped me create my adult life in the proper way.
+</p><br>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+     <h2>♫ Sampai Syurga</h2>
+      <audio controls autoplay muted>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="Music/Faizal Tahir - Sampai Syurga with Lyrics ~!.mp3" type="audio/mpeg">
+	  
+    </div>
+  </div>
+</div>
+</audio>
+</body>
+</html>
